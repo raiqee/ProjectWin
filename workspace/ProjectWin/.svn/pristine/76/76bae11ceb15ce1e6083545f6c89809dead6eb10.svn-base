@@ -1,0 +1,147 @@
+Feature: Student Full Registration Action
+
+Scenario: First Name Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message First Name is required is displayed
+	
+Scenario: Last Name Field is Required	
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Last Name is required is displayed
+	Then Quit Browser	
+	
+Scenario: Birthdate Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button	
+	Then Error Message Invalid Birthdate is displayed
+	Then Quit Browser
+
+Scenario: Gender Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Gender is required is displayed
+	Then Quit Browser
+	
+Scenario: Contact Number Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Contact Number is required is displayed
+	Then Quit Browser
+	
+Scenario: Skype ID Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Skype ID is required is displayed
+	Then Quit Browser
+	
+Scenario: Address Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Address is required is displayed
+	Then Quit Browser
+	
+Scenario: Country Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button	
+	Then Error Message Country is required is displayed
+	Then Quit Browser
+
+Scenario: Zip Code Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message ZIP Code is required is displayed
+	Then Quit Browser
+
+Scenario: Email Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Email is required is displayed
+	Then Quit Browser
+
+Scenario: Password Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Password is required is displayed
+	Then Quit Browser
+
+Scenario: Confirm Password Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button
+	Then Error Message Password Confirmation is required is displayed
+	Then Quit Browser
+	
+Scenario: Level Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button	
+	Then Error Message Level is required is displayed
+	Then Quit Browser
+	
+Scenario: First Name field only accept Alphabet Characters
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User input First Name Special and Numeric Characters
+	And User click Join Now Button
+	Then FirstName Error Message Invalid Name is displayed
+	Then Quit Browser
+	
+Scenario: Last Name field only accept Alphabet Characters
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User input Last Name Special and Numeric Characters
+	And User click Join Now Button
+	Then LastName Error Message Invalid Name is displayed
+	Then Quit Browser
+
+Scenario: Birthdate Cannot be equal to the Current Date
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User select birthdate equal to the current date
+	And User click Join Now Button
+	Then Birthdate Error Message is displayed
+	Then Quit Browser
+	
+Scenario: Birthdate Cannot be greater than the Current Date
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User select birthdate greater than the current date
+	And User click Join Now Button
+	Then Birthdate Error Message is displayed
+	Then Quit Browser
+
+Scenario: Non-Leap Year Birhtdate
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User select a non leap year birthdate
+	And User click Join Now Button
+	Then Birthdate Validation Message is displayed
+	Then Quit Browser
+	
+Scenario: Mobile Number field only accept Numeric Characters
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User input Latin or Special Characters as Mobile Number
+	And User click Join Now Button
+	Then Mobile Number Format Error Message is displayed
+	Then Quit Browser
+@Email	
+Scenario: Email field only accept Valid Format
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User input Email Invalid Format
+	And User click Join Now Button
+	Then Email Format Error Message is displayed
+	Then Quit Browser

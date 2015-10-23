@@ -1,0 +1,783 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Tutor_Registration.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Tutor Registration Action",
+  "description": "",
+  "id": "tutor-registration-action",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 90,
+  "name": "About Me Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;about-me-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 89,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 91,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 92,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 93,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 94,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 95,
+  "name": "TR: Error Message About Me is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 96,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 12390125257,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2892742231,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 3018651622,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5493211019,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_aboutme_required()"
+});
+formatter.result({
+  "duration": 187229213,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 450766799,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 98,
+  "name": "Contact Information Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;contact-information-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 97,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 99,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 100,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 101,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 102,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 103,
+  "name": "TR: Error Message Contact Information is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 104,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10837697473,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3145290004,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2778246465,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5481889763,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_contactinfo_required()"
+});
+formatter.result({
+  "duration": 168806400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 380540299,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 106,
+  "name": "Skype Account is Required",
+  "description": "",
+  "id": "tutor-registration-action;skype-account-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 105,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 107,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 108,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 109,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 110,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 111,
+  "name": "TR: Error Message Skype Account is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 112,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 8422093731,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3045567867,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2746297310,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5456559190,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_skypeacct_required()"
+});
+formatter.result({
+  "duration": 561779706,
+  "error_message": "java.lang.Exception: Test Condition Failed\r\n\tat stepDefinition.RegistrationsSteps.error_message_skypeacct_required(RegistrationsSteps.java:1820)\r\n\tat ✽.Then TR: Error Message Skype Account is required is displayed(Tutor_Registration.feature:111)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 114,
+  "name": "Educational Background Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;educational-background-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 113,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 115,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 116,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 117,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 118,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 119,
+  "name": "TR: Error Message Educational Background is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 120,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9240386441,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3123583258,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2701090167,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5578529912,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_education_required()"
+});
+formatter.result({
+  "duration": 155511283,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 381807808,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 122,
+  "name": "Work Experience Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;work-experience-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 121,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 123,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 124,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 125,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 126,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 127,
+  "name": "TR: Error Message Work Experience is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 128,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9390049792,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3196435035,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2815042283,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5457520311,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_work_required()"
+});
+formatter.result({
+  "duration": 130648893,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 406094250,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 130,
+  "name": "Documents Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;documents-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 129,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 131,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 132,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 133,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 134,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 135,
+  "name": "TR: Error Message Documents is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 136,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9212391047,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3026510545,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2798749394,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5483698206,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_documents_required()"
+});
+formatter.result({
+  "duration": 143076466,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 408327711,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 138,
+  "name": "Subject Matter Expertise Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;subject-matter-expertise-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 137,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 139,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 140,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 141,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 142,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 143,
+  "name": "TR: Error Message Subject Matter is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 144,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9370331095,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3118610720,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2986677111,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5484527114,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_subject_required()"
+});
+formatter.result({
+  "duration": 154843569,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 346142759,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 146,
+  "name": "Level Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;level-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 145,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 147,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 148,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 149,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 150,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 151,
+  "name": "TR: Error Message Level is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 152,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 8161155762,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3123429310,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2841395861,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5533067697,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_tlevel_required()"
+});
+formatter.result({
+  "duration": 131418334,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 347651455,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 154,
+  "name": "Rate Field is Required",
+  "description": "",
+  "id": "tutor-registration-action;rate-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 153,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 155,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 156,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 157,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 158,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 159,
+  "name": "TR: Error Message Rate is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 160,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9216437480,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3067499498,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2722539125,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5501111901,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_rate_required()"
+});
+formatter.result({
+  "duration": 124849259,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 410645996,
+  "status": "passed"
+});
+});

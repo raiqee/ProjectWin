@@ -1,0 +1,1185 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Tutor_Registration.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Tutor Registration Action",
+  "description": "",
+  "id": "tutor-registration-action",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 162,
+  "name": "First Name field only accept Alphabet Characters",
+  "description": "",
+  "id": "tutor-registration-action;first-name-field-only-accept-alphabet-characters",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 161,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 163,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 164,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 165,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 166,
+  "name": "TR: User input First Name Special and Numeric Characters",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 167,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 168,
+  "name": "TR: First Name Error Message Invalid Name is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 169,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10021231921,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2807434206,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2548882138,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_tfirstname_invalid_characters()"
+});
+formatter.result({
+  "duration": 333333333,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5689097273,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_tfirstname_invalid_inputs()"
+});
+formatter.result({
+  "duration": 133682585,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 295420936,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 171,
+  "name": "Last Name field only accept Alphabet Characters",
+  "description": "",
+  "id": "tutor-registration-action;last-name-field-only-accept-alphabet-characters",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 170,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 172,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 173,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 174,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 175,
+  "name": "TR: User input Last Name Special and Numeric Characters",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 176,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 177,
+  "name": "TR: Last Name Error Message Invalid Name is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 178,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9375173833,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2870800638,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2677750058,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_tlastname_invalid_characters()"
+});
+formatter.result({
+  "duration": 331597337,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5763210220,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_tlastname_invalid_inputs()"
+});
+formatter.result({
+  "duration": 154344896,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 389846338,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 180,
+  "name": "Birthdate Cannot be equal to the Current Date",
+  "description": "",
+  "id": "tutor-registration-action;birthdate-cannot-be-equal-to-the-current-date",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 179,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 181,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 182,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 183,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 184,
+  "name": "User select birthdate equal to the current date",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 185,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 186,
+  "name": "TR: Birthdate Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 187,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 8846845338,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2837334034,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2589466598,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_equal_birthdate()"
+});
+formatter.result({
+  "duration": 1375397814,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5507616680,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_equal_OR_greater_tbirthdate_inputs()"
+});
+formatter.result({
+  "duration": 156745286,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 352180561,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 189,
+  "name": "Birthdate Cannot be greater than the Current Date",
+  "description": "",
+  "id": "tutor-registration-action;birthdate-cannot-be-greater-than-the-current-date",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 188,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 190,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 191,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 192,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 193,
+  "name": "User select birthdate greater than the current date",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 194,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 195,
+  "name": "TR: Birthdate Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 196,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 8850812380,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2842480142,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2570461196,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_greater_birthdate()"
+});
+formatter.result({
+  "duration": 1378537458,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5484146166,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_equal_OR_greater_tbirthdate_inputs()"
+});
+formatter.result({
+  "duration": 130117318,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 358233153,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 198,
+  "name": "Non-Leap Year Birhtdate",
+  "description": "",
+  "id": "tutor-registration-action;non-leap-year-birhtdate",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 197,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 199,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 200,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 201,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 202,
+  "name": "User select a non leap year birthdate",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 203,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 204,
+  "name": "SR: Birthdate Validation Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 205,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9433577990,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2873726566,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2619461814,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_non_leap_year_birthdate()"
+});
+formatter.result({
+  "duration": 1348027572,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5458064565,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.validation_message_non_leap_year_birthdate()"
+});
+formatter.result({
+  "duration": 10054549104,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 347302504,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 207,
+  "name": "Email field only accept Valid Format",
+  "description": "",
+  "id": "tutor-registration-action;email-field-only-accept-valid-format",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 206,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 208,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 209,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 210,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 211,
+  "name": "User input Email Invalid Format",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 212,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 213,
+  "name": "TR: Email Format Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 214,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 8896584002,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2896275501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2642773549,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_email_format()"
+});
+formatter.result({
+  "duration": 305233496,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5635964798,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_temail_format()"
+});
+formatter.result({
+  "duration": 129658189,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 368663621,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 216,
+  "name": "Email should be unique",
+  "description": "",
+  "id": "tutor-registration-action;email-should-be-unique",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 215,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 217,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 218,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 219,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 220,
+  "name": "User input existing Email",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 221,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 222,
+  "name": "TR: Existing Email Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 223,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9288771867,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2983925356,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2570229670,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_existing_email_format()"
+});
+formatter.result({
+  "duration": 331517948,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5715593329,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_temail_exists()"
+});
+formatter.result({
+  "duration": 181118662,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 427779866,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 225,
+  "name": "Password and Confirm Password should be matched",
+  "description": "",
+  "id": "tutor-registration-action;password-and-confirm-password-should-be-matched",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 224,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 226,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 227,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 228,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 229,
+  "name": "User input differenet Password and Confirm Password",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 230,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 231,
+  "name": "TR: Password Unmatched Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 232,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9111525766,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2846584530,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2705962186,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_unmatched_password()"
+});
+formatter.result({
+  "duration": 637217516,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5456735476,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_unmatched_tpassword()"
+});
+formatter.result({
+  "duration": 10060437486,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 345151149,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 234,
+  "name": "Password should contain alphanumeric and special character",
+  "description": "",
+  "id": "tutor-registration-action;password-should-contain-alphanumeric-and-special-character",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 233,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 235,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 236,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 237,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 238,
+  "name": "User input invalid password character",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 239,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 240,
+  "name": "TR: Invalid Password Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 241,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9541752508,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2948745697,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2567964815,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_password()"
+});
+formatter.result({
+  "duration": 664849168,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5485510574,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_invalid_tpassword()"
+});
+formatter.result({
+  "duration": 130513660,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 301815537,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 243,
+  "name": "Password must be 8-20 characters",
+  "description": "",
+  "id": "tutor-registration-action;password-must-be-8-20-characters",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 242,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 244,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 245,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 246,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 247,
+  "name": "User input less than 8 character Password",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 248,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 249,
+  "name": "TR: Password Length Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 250,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9104876094,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2990866323,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2685001336,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_less_minimum_length_password()"
+});
+formatter.result({
+  "duration": 687652571,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5457844810,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_length_tpassword()"
+});
+formatter.result({
+  "duration": 154295089,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 485713725,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 252,
+  "name": "Contact Type is Required",
+  "description": "",
+  "id": "tutor-registration-action;contact-type-is-required",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 251,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 253,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 254,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 255,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 256,
+  "name": "User input valid Contact Number",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 257,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 258,
+  "name": "TR: Contact Type Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 259,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9303997984,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2939403434,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2612844743,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_valid_contact_information()"
+});
+formatter.result({
+  "duration": 383750579,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5687459080,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_contact_type()"
+});
+formatter.result({
+  "duration": 164264013,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 666092831,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 261,
+  "name": "Contact Information Field only accept Numeric Characters",
+  "description": "",
+  "id": "tutor-registration-action;contact-information-field-only-accept-numeric-characters",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 260,
+      "name": "@TR"
+    }
+  ]
+});
+formatter.step({
+  "line": 262,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 263,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 264,
+  "name": "Click Im a Tutor Link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 265,
+  "name": "User input invalid Contact Number",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 266,
+  "name": "User click Continue Now Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 267,
+  "name": "TR: Invalid Contact Number Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 268,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9266459893,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2668263808,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_tutor_link()"
+});
+formatter.result({
+  "duration": 2586522559,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_contact_information()"
+});
+formatter.result({
+  "duration": 814162059,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_tfield_blank()"
+});
+formatter.result({
+  "duration": 5633592480,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_invalid_contact_type()"
+});
+formatter.result({
+  "duration": 127034423,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 302149092,
+  "status": "passed"
+});
+});

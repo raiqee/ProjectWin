@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="7" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="57" time="1426.720346">
+<testcase classname="Login Action" name="Successful Login with Valid Credentials" time="15.474333">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters Email and Password..........................................passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Action" name="Successful LogOut" time="0.000664">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinition.LoginSteps.user_LogOut_from_the_Application(LoginSteps.java:52)&#13;&#10;&#9;at ✽.When User LogOut from the Application(LogIn_Test.feature:10)&#13;&#10;"><![CDATA[When User LogOut from the Application.......................................failed
+Then Message displayed LogOut Successfully..................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.LoginSteps.user_LogOut_from_the_Application(LoginSteps.java:52)
+	at ✽.When User LogOut from the Application(LogIn_Test.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="When Parent Radio Button is clicked, it will redirect to Parent/Guardians Registration Form" time="16.031358">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+Then Page should redirected to Parent Registration Form.....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian First Name Field is Required" time="28.847578">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Guardian First Name is required is displayed.........passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Last Name Field is Required" time="30.82876">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Guardian Last Name is required is displayed..........passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Birthdate Field is Required" time="24.2612">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Invalid Birthdate is displayed.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Gender Field is Required" time="25.199068">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Gender is required is displayed......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Contact Number Field is Required" time="30.667036">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Contact Number is required is displayed..............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Skype ID Field is Required" time="23.780554">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Skype ID is required is displayed....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Address Field is Required" time="27.253603">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Address is required is displayed.....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Country Field is Required" time="29.973548">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Country is required is displayed.....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Zip Code Field is Required" time="23.789747">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message ZIP Code is required is displayed....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Email Field is Required" time="22.753425">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Email is required is displayed.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Password Field is Required" time="30.722573">
+<failure message="java.lang.Exception: Test Condition Failed&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.error_message_gpassword_required(RegistrationsSteps.java:1069)&#13;&#10;&#9;at ✽.Then PR: Error Message Password is required is displayed(Parent_Registration.feature:95)&#13;&#10;"><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Password is required is displayed....................failed
+Then Quit Browser...........................................................skipped
+
+StackTrace:
+java.lang.Exception: Test Condition Failed
+	at stepDefinition.RegistrationsSteps.error_message_gpassword_required(RegistrationsSteps.java:1069)
+	at ✽.Then PR: Error Message Password is required is displayed(Parent_Registration.feature:95)
+]]></failure>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Guardian Confirm Password Field is Required" time="25.569891">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Password Confirmation is required is displayed.......passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Student First Name Field is Required" time="31.363805">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Student First Name is required is displayed..........passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Student Last Name Field is Required" time="27.643861">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Student Last Name is required is displayed...........passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Student Birthdate Field is Required" time="23.456096">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Invalid Student Birthdate is displayed...............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Student Gender Field is Required" time="24.789547">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Click Parent RadioButton................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Student Gender is required is displayed..............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parent Full Registration Action" name="Student Level Field is Required" time="29.754682">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then PR: Error Message Level is required is displayed.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quick Registration Action" name="Successful Quick Registration" time="15.77217">
+<system-out><![CDATA[Given Access My Learning Coach Website......................................passed
+When User select a Subject..................................................passed
+And User enters email and password..........................................passed
+Then User will redirect to Registration Notification Slide..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="First Name Field is Required" time="26.669831">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message First Name is required is displayed..................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Last Name Field is Required" time="23.18511">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Last Name is required is displayed...................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Birthdate Field is Required" time="22.008021">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Invalid Birthdate is displayed.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Gender Field is Required" time="22.481621">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Gender is required is displayed......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Contact Number Field is Required" time="22.014392">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Contact Number is required is displayed..............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Skype ID Field is Required" time="25.535237">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Skype ID is required is displayed....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Address Field is Required" time="20.673651">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Address is required is displayed.....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Country Field is Required" time="24.596776">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Country is required is displayed.....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Zip Code Field is Required" time="24.422547">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message ZIP Code is required is displayed....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Email Field is Required" time="28.68201">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Email is required is displayed.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Password Field is Required" time="23.408512">
+<failure message="java.lang.Exception: Test Condition Failed&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.error_message_password_required(RegistrationsSteps.java:451)&#13;&#10;&#9;at ✽.Then SR: Error Message Password is required is displayed(Student_Registration.feature:77)&#13;&#10;"><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Password is required is displayed....................failed
+Then Quit Browser...........................................................skipped
+
+StackTrace:
+java.lang.Exception: Test Condition Failed
+	at stepDefinition.RegistrationsSteps.error_message_password_required(RegistrationsSteps.java:451)
+	at ✽.Then SR: Error Message Password is required is displayed(Student_Registration.feature:77)
+]]></failure>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Confirm Password Field is Required" time="23.104719">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Password Confirmation is required is displayed.......passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Level Field is Required" time="20.249295">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Level is required is displayed.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="First Name field only accept Alphabet Characters" time="20.964346">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User input First Name Special and Numeric Characters....................passed
+And User click Join Now Button..............................................passed
+Then SR: FirstName Error Message Invalid Name is displayed..................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Last Name field only accept Alphabet Characters" time="23.35494">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User input Last Name Special and Numeric Characters.....................passed
+And User click Join Now Button..............................................passed
+Then SR: LastName Error Message Invalid Name is displayed...................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Birthdate Cannot be equal to the Current Date" time="36.217497">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User select birthdate equal to the current date.........................passed
+And User click Join Now Button..............................................passed
+Then SR: Birthdate Error Message is displayed...............................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Birthdate Cannot be greater than the Current Date" time="32.386087">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User select birthdate greater than the current date.....................passed
+And User click Join Now Button..............................................passed
+Then SR: Birthdate Error Message is displayed...............................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Non-Leap Year Birhtdate" time="21.396912">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User select a non leap year birthdate...................................passed
+And User click Join Now Button..............................................passed
+Then SR: Birthdate Validation Message is displayed..........................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Mobile Number field only accept Numeric Characters" time="22.113276">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User input Latin or Special Characters as Mobile Number.................passed
+And User click Join Now Button..............................................passed
+Then SR: Mobile Number Format Error Message is displayed....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Email field only accept Valid Format" time="19.024869">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User input Email Invalid Format.........................................passed
+And User click Join Now Button..............................................passed
+Then SR: Email Format Error Message is displayed............................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Email is unique" time="21.148868">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User input existing Email...............................................passed
+And User click Join Now Button..............................................passed
+Then SR: Existing Email Error Message is displayed..........................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Password and Confirm Password should be matched" time="23.520187">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User input differenet Password and Confirm Password.....................passed
+And User click Join Now Button..............................................passed
+Then SR: Password Unmatched Error Message is displayed......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Password should contain alphanumeric and special character" time="31.196691">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And User input invalid password character...................................passed
+And User click Join Now Button..............................................passed
+Then SR: Invalid Password Error Message is displayed........................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Password must be 8-20 characters" time="18.744883">
+<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign Up&quot;}&#10;Command duration or timeout: 10.51 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-27 00:00:10'&#10;System info: host: 'LLP0000A32581', ip: '10.120.20.134', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8fa6ed28-19ef-447d-a99d-994718a049e9&#10;*** Element info: {Using=link text, value=Sign Up}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)&#13;&#10;&#9;at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.click_signup(RegistrationsSteps.java:35)&#13;&#10;&#9;at ✽.When Click Sign Up Menu(Student_Registration.feature:176)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign Up&quot;}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-27 00:00:10'&#10;System info: host: 'LLP0000A32581', ip: '10.120.20.134', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous4543713193496162984webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous4543713193496162984webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)&#13;&#10;"><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................failed
+And User input less than 8 character Password...............................skipped
+And User click Join Now Button..............................................skipped
+Then SR: Password Length Error Message is displayed.........................skipped
+Then Quit Browser...........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Sign Up"}
+Command duration or timeout: 10.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-27 00:00:10'
+System info: host: 'LLP0000A32581', ip: '10.120.20.134', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8fa6ed28-19ef-447d-a99d-994718a049e9
+*** Element info: {Using=link text, value=Sign Up}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at stepDefinition.RegistrationsSteps.click_signup(RegistrationsSteps.java:35)
+	at ✽.When Click Sign Up Menu(Student_Registration.feature:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Sign Up"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-27 00:00:10'
+System info: host: 'LLP0000A32581', ip: '10.120.20.134', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous4543713193496162984webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous4543713193496162984webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+]]></failure>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Email Field is Required" time="27.01282">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Guardian Email is required is displayed..............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian First Name Field is Required" time="24.747306">
+<failure message="java.lang.Exception: Test Condition Failed&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.error_message_guardian_firstname_required(RegistrationsSteps.java:640)&#13;&#10;&#9;at ✽.Then SR: Error Message Guardian First Name is required is displayed(Student_Registration.feature:195)&#13;&#10;"><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Guardian First Name is required is displayed.........failed
+Then Quit Browser...........................................................skipped
+
+StackTrace:
+java.lang.Exception: Test Condition Failed
+	at stepDefinition.RegistrationsSteps.error_message_guardian_firstname_required(RegistrationsSteps.java:640)
+	at ✽.Then SR: Error Message Guardian First Name is required is displayed(Student_Registration.feature:195)
+]]></failure>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Last Name Field is Required" time="48.409401">
+<failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7058; process output follows: &#10;dons.manager&#9;DEBUG&#9;Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm&#13;&#10;1442319596214&#9;addons.manager&#9;DEBUG&#9;Starting provider: XPIProvider&#13;&#10;1442319596214&#9;addons.xpi&#9;DEBUG&#9;startup&#13;&#10;1442319596214&#9;addons.xpi&#9;INFO&#9;Mapping fxdriver@googlecode.com to C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\fxdriver@googlecode.com&#13;&#10;1442319596215&#9;addons.xpi&#9;DEBUG&#9;Ignoring file entry whose name is not a valid add-on ID: C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\webdriver-staging&#13;&#10;1442319596215&#9;addons.xpi&#9;WARN&#9;Ignoring missing add-on in C:\Program Files (x86)\HP\Unified Functional Testing\Bin\Mozilla\Common&#13;&#10;1442319596215&#9;addons.xpi&#9;INFO&#9;Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}&#13;&#10;1442319596215&#9;addons.xpi&#9;DEBUG&#9;Skipping unavailable install location app-system-share&#13;&#10;1442319596215&#9;addons.xpi&#9;DEBUG&#9;Skipping unavailable install location app-system-local&#13;&#10;1442319596216&#9;addons.xpi&#9;DEBUG&#9;checkForChanges&#13;&#10;1442319596216&#9;addons.xpi&#9;DEBUG&#9;Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.45.0&quot;,&quot;st&quot;:1442319593192,&quot;mt&quot;:1442319593106}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0.3&quot;,&quot;st&quot;:1441091144941,&quot;mt&quot;:1441091144869}}}&#13;&#10;1442319596216&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of fxdriver@googlecode.com&#13;&#10;1442319596222&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}&#13;&#10;1442319596223&#9;addons.xpi&#9;DEBUG&#9;getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.45.0&quot;,&quot;st&quot;:1442319593192,&quot;mt&quot;:1442319593106}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0.3&quot;,&quot;st&quot;:1441091144941,&quot;mt&quot;:1441091144869}}}&#13;&#10;1442319596224&#9;addons.xpi&#9;DEBUG&#9;No changes found&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#13;&#10;1442319596229&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#13;&#10;1442319596257&#9;addons.xpi-utils&#9;DEBUG&#9;Starting async load of XPI database C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions.json&#13;&#10;1442319596296&#9;addons.xpi-utils&#9;DEBUG&#9;Async JSON file read took 0 MS&#13;&#10;1442319596296&#9;addons.xpi-utils&#9;DEBUG&#9;Finished async read of XPI database, parsing...&#13;&#10;1442319596297&#9;addons.xpi-utils&#9;DEBUG&#9;Successfully read XPI database&#13;&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#13;&#10;1442319596383&#9;addons.manager&#9;DEBUG&#9;Starting provider: PreviousExperimentProvider&#13;&#10;1442319596383&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PreviousExperimentProvider&#13;&#10;1442319596383&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PreviousExperimentProvider&#13;&#10;&#10;Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-27 00:00:10'&#10;System info: host: 'LLP0000A32581', ip: '10.120.20.134', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'&#10;Driver info: driver.version: FirefoxDriver&#13;&#10;&#9;at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.access_url(RegistrationsSteps.java:26)&#13;&#10;&#9;at ✽.Given Access My Learning Coach(Student_Registration.feature:199)&#13;&#10;Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7058 after 45000 ms. Firefox console output:&#10;dons.manager&#9;DEBUG&#9;Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm&#13;&#10;1442319596214&#9;addons.manager&#9;DEBUG&#9;Starting provider: XPIProvider&#13;&#10;1442319596214&#9;addons.xpi&#9;DEBUG&#9;startup&#13;&#10;1442319596214&#9;addons.xpi&#9;INFO&#9;Mapping fxdriver@googlecode.com to C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\fxdriver@googlecode.com&#13;&#10;1442319596215&#9;addons.xpi&#9;DEBUG&#9;Ignoring file entry whose name is not a valid add-on ID: C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\webdriver-staging&#13;&#10;1442319596215&#9;addons.xpi&#9;WARN&#9;Ignoring missing add-on in C:\Program Files (x86)\HP\Unified Functional Testing\Bin\Mozilla\Common&#13;&#10;1442319596215&#9;addons.xpi&#9;INFO&#9;Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}&#13;&#10;1442319596215&#9;addons.xpi&#9;DEBUG&#9;Skipping unavailable install location app-system-share&#13;&#10;1442319596215&#9;addons.xpi&#9;DEBUG&#9;Skipping unavailable install location app-system-local&#13;&#10;1442319596216&#9;addons.xpi&#9;DEBUG&#9;checkForChanges&#13;&#10;1442319596216&#9;addons.xpi&#9;DEBUG&#9;Loaded add-on state from prefs: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.45.0&quot;,&quot;st&quot;:1442319593192,&quot;mt&quot;:1442319593106}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0.3&quot;,&quot;st&quot;:1441091144941,&quot;mt&quot;:1441091144869}}}&#13;&#10;1442319596216&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of fxdriver@googlecode.com&#13;&#10;1442319596222&#9;addons.xpi&#9;DEBUG&#9;getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}&#13;&#10;1442319596223&#9;addons.xpi&#9;DEBUG&#9;getInstallState changed: false, state: {&quot;app-profile&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;d&quot;:&quot;C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;2.45.0&quot;,&quot;st&quot;:1442319593192,&quot;mt&quot;:1442319593106}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;40.0.3&quot;,&quot;st&quot;:1441091144941,&quot;mt&quot;:1441091144869}}}&#13;&#10;1442319596224&#9;addons.xpi&#9;DEBUG&#9;No changes found&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#13;&#10;1442319596225&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#13;&#10;1442319596228&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#13;&#10;1442319596229&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#13;&#10;1442319596257&#9;addons.xpi-utils&#9;DEBUG&#9;Starting async load of XPI database C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions.json&#13;&#10;1442319596296&#9;addons.xpi-utils&#9;DEBUG&#9;Async JSON file read took 0 MS&#13;&#10;1442319596296&#9;addons.xpi-utils&#9;DEBUG&#9;Finished async read of XPI database, parsing...&#13;&#10;1442319596297&#9;addons.xpi-utils&#9;DEBUG&#9;Successfully read XPI database&#13;&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#13;&#10;1442319596383&#9;addons.manager&#9;DEBUG&#9;Starting provider: PreviousExperimentProvider&#13;&#10;1442319596383&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PreviousExperimentProvider&#13;&#10;1442319596383&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PreviousExperimentProvider&#13;&#10;&#13;&#10;&#9;at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.access_url(RegistrationsSteps.java:26)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Unknown Source)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:37)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:13)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:31)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:299)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:98)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;&#10;"><![CDATA[Given Access My Learning Coach..............................................failed
+When Click Sign Up Menu.....................................................skipped
+And Select Student Birthdate less than 18 years old.........................skipped
+And User click Join Now Button..............................................skipped
+Then SR: Error Message Guardian Last Name is required is displayed..........skipped
+Then Quit Browser...........................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+dons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1442319596214	addons.manager	DEBUG	Starting provider: XPIProvider
+1442319596214	addons.xpi	DEBUG	startup
+1442319596214	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\fxdriver@googlecode.com
+1442319596215	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\webdriver-staging
+1442319596215	addons.xpi	WARN	Ignoring missing add-on in C:\Program Files (x86)\HP\Unified Functional Testing\Bin\Mozilla\Common
+1442319596215	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1442319596215	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1442319596215	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1442319596216	addons.xpi	DEBUG	checkForChanges
+1442319596216	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.45.0","st":1442319593192,"mt":1442319593106}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0.3","st":1441091144941,"mt":1441091144869}}}
+1442319596216	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1442319596222	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1442319596223	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.45.0","st":1442319593192,"mt":1442319593106}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0.3","st":1441091144941,"mt":1441091144869}}}
+1442319596224	addons.xpi	DEBUG	No changes found
+1442319596225	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1442319596225	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1442319596225	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1442319596225	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1442319596225	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1442319596225	addons.manager	DEBUG	Starting provider: GMPProvider
+1442319596228	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1442319596228	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1442319596228	addons.manager	DEBUG	Starting provider: PluginProvider
+1442319596228	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1442319596228	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1442319596229	addons.manager	DEBUG	Completed startup sequence
+1442319596257	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions.json
+1442319596296	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1442319596296	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1442319596297	addons.xpi-utils	DEBUG	Successfully read XPI database
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1442319596383	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1442319596383	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1442319596383	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-27 00:00:10'
+System info: host: 'LLP0000A32581', ip: '10.120.20.134', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at stepDefinition.RegistrationsSteps.access_url(RegistrationsSteps.java:26)
+	at ✽.Given Access My Learning Coach(Student_Registration.feature:199)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7058 after 45000 ms. Firefox console output:
+dons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1442319596214	addons.manager	DEBUG	Starting provider: XPIProvider
+1442319596214	addons.xpi	DEBUG	startup
+1442319596214	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\fxdriver@googlecode.com
+1442319596215	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions\webdriver-staging
+1442319596215	addons.xpi	WARN	Ignoring missing add-on in C:\Program Files (x86)\HP\Unified Functional Testing\Bin\Mozilla\Common
+1442319596215	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1442319596215	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1442319596215	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1442319596216	addons.xpi	DEBUG	checkForChanges
+1442319596216	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.45.0","st":1442319593192,"mt":1442319593106}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0.3","st":1441091144941,"mt":1441091144869}}}
+1442319596216	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1442319596222	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1442319596223	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.45.0","st":1442319593192,"mt":1442319593106}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"40.0.3","st":1441091144941,"mt":1441091144869}}}
+1442319596224	addons.xpi	DEBUG	No changes found
+1442319596225	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1442319596225	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1442319596225	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1442319596225	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1442319596225	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1442319596225	addons.manager	DEBUG	Starting provider: GMPProvider
+1442319596228	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1442319596228	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1442319596228	addons.manager	DEBUG	Starting provider: PluginProvider
+1442319596228	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1442319596228	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1442319596229	addons.manager	DEBUG	Completed startup sequence
+1442319596257	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\RENALE~1.SOB\AppData\Local\Temp\anonymous8877270370957147725webdriver-profile\extensions.json
+1442319596296	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1442319596296	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1442319596297	addons.xpi-utils	DEBUG	Successfully read XPI database
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1442319596383	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1442319596383	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1442319596383	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at stepDefinition.RegistrationsSteps.access_url(RegistrationsSteps.java:26)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+]]></failure>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Birthdate Field is Required" time="25.820414">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Guardian Birthdate is required is displayed..........passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Gender Field is Required" time="23.776039">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Guardian Gender is required is displayed.............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Email field only accept Valid Format" time="24.587287">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User input Guardian Email using Invalid Format..........................passed
+And User click Join Now Button..............................................passed
+Then SR: Guardian Email Format Error Message is displayed...................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian First Name Field only accept Alphabet Characters" time="25.677972">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User input Guardian First Name with Special and Numeric Characters......passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Guardian First Name is invalid.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Last Name Field only accept Alphabet Characters" time="28.587751">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User input Guardian Last Name with Special and Numeric Characters.......passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Guardian Last Name is invalid........................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Non-Leap Year Guardian Birhtdate" time="22.3229">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User select a non leap year for guardian birthdate......................passed
+And User click Join Now Button..............................................passed
+Then SR: Guardian Birthdate Validation Message is displayed.................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian must be at least 18 years old" time="32.040364">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User select Guardian Birthdate less than 18 years old...................passed
+And User click Join Now Button..............................................passed
+Then SR: Error Message Guardian must be at least 18years old is displayed...passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Birthdate Cannot be equal to the Current Date" time="34.723953">
+<failure message="java.lang.Exception: Test Condition Failed&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.error_message_equal_OR_greater_gbirthdate(RegistrationsSteps.java:814)&#13;&#10;&#9;at ✽.Then SR: Guardian Birthdate Error Message is displayed(Student_Registration.feature:273)&#13;&#10;"><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User select Guardian birthdate equal to the current date................passed
+And User click Join Now Button..............................................passed
+Then SR: Guardian Birthdate Error Message is displayed......................failed
+Then Quit Browser...........................................................skipped
+
+StackTrace:
+java.lang.Exception: Test Condition Failed
+	at stepDefinition.RegistrationsSteps.error_message_equal_OR_greater_gbirthdate(RegistrationsSteps.java:814)
+	at ✽.Then SR: Guardian Birthdate Error Message is displayed(Student_Registration.feature:273)
+]]></failure>
+</testcase>
+<testcase classname="Student Full Registration Action" name="Guardian Birthdate Cannot be greater than the Current Date" time="23.980362">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+And Select Student Birthdate less than 18 years old.........................passed
+And User select Guardian birthdate greater than the current date............passed
+And User click Join Now Button..............................................passed
+Then SR: Guardian Birthdate Error Message is displayed......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

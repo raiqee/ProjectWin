@@ -1,0 +1,1212 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 162,
+        "name": "First Name field only accept Alphabet Characters",
+        "description": "",
+        "id": "tutor-registration-action;first-name-field-only-accept-alphabet-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10021231921,
+              "status": "passed"
+            },
+            "line": 163,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2807434206,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2548882138,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333333333,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "TR: User input First Name Special and Numeric Characters",
+            "match": {
+              "location": "RegistrationsSteps.input_tfirstname_invalid_characters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5689097273,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133682585,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "TR: First Name Error Message Invalid Name is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_tfirstname_invalid_inputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 295420936,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 161,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 171,
+        "name": "Last Name field only accept Alphabet Characters",
+        "description": "",
+        "id": "tutor-registration-action;last-name-field-only-accept-alphabet-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9375173833,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2870800638,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2677750058,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331597337,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "TR: User input Last Name Special and Numeric Characters",
+            "match": {
+              "location": "RegistrationsSteps.input_tlastname_invalid_characters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5763210220,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154344896,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "TR: Last Name Error Message Invalid Name is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_tlastname_invalid_inputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 389846338,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 170,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 180,
+        "name": "Birthdate Cannot be equal to the Current Date",
+        "description": "",
+        "id": "tutor-registration-action;birthdate-cannot-be-equal-to-the-current-date",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8846845338,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2837334034,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2589466598,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1375397814,
+              "status": "passed"
+            },
+            "line": 184,
+            "name": "User select birthdate equal to the current date",
+            "match": {
+              "location": "RegistrationsSteps.select_equal_birthdate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5507616680,
+              "status": "passed"
+            },
+            "line": 185,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156745286,
+              "status": "passed"
+            },
+            "line": 186,
+            "name": "TR: Birthdate Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_equal_OR_greater_tbirthdate_inputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 352180561,
+              "status": "passed"
+            },
+            "line": 187,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 179,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 189,
+        "name": "Birthdate Cannot be greater than the Current Date",
+        "description": "",
+        "id": "tutor-registration-action;birthdate-cannot-be-greater-than-the-current-date",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8850812380,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2842480142,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2570461196,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1378537458,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "User select birthdate greater than the current date",
+            "match": {
+              "location": "RegistrationsSteps.select_greater_birthdate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5484146166,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130117318,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "TR: Birthdate Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_equal_OR_greater_tbirthdate_inputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 358233153,
+              "status": "passed"
+            },
+            "line": 196,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 188,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 198,
+        "name": "Non-Leap Year Birhtdate",
+        "description": "",
+        "id": "tutor-registration-action;non-leap-year-birhtdate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9433577990,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2873726566,
+              "status": "passed"
+            },
+            "line": 200,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2619461814,
+              "status": "passed"
+            },
+            "line": 201,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1348027572,
+              "status": "passed"
+            },
+            "line": 202,
+            "name": "User select a non leap year birthdate",
+            "match": {
+              "location": "RegistrationsSteps.input_non_leap_year_birthdate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5458064565,
+              "status": "passed"
+            },
+            "line": 203,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10054549104,
+              "status": "passed"
+            },
+            "line": 204,
+            "name": "SR: Birthdate Validation Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.validation_message_non_leap_year_birthdate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 347302504,
+              "status": "passed"
+            },
+            "line": 205,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 197,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 207,
+        "name": "Email field only accept Valid Format",
+        "description": "",
+        "id": "tutor-registration-action;email-field-only-accept-valid-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8896584002,
+              "status": "passed"
+            },
+            "line": 208,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2896275501,
+              "status": "passed"
+            },
+            "line": 209,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2642773549,
+              "status": "passed"
+            },
+            "line": 210,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305233496,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "User input Email Invalid Format",
+            "match": {
+              "location": "RegistrationsSteps.input_invalid_email_format()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5635964798,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129658189,
+              "status": "passed"
+            },
+            "line": 213,
+            "name": "TR: Email Format Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_temail_format()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 368663621,
+              "status": "passed"
+            },
+            "line": 214,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 206,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 216,
+        "name": "Email should be unique",
+        "description": "",
+        "id": "tutor-registration-action;email-should-be-unique",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9288771867,
+              "status": "passed"
+            },
+            "line": 217,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2983925356,
+              "status": "passed"
+            },
+            "line": 218,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2570229670,
+              "status": "passed"
+            },
+            "line": 219,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331517948,
+              "status": "passed"
+            },
+            "line": 220,
+            "name": "User input existing Email",
+            "match": {
+              "location": "RegistrationsSteps.input_existing_email_format()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5715593329,
+              "status": "passed"
+            },
+            "line": 221,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181118662,
+              "status": "passed"
+            },
+            "line": 222,
+            "name": "TR: Existing Email Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_temail_exists()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 427779866,
+              "status": "passed"
+            },
+            "line": 223,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 215,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 225,
+        "name": "Password and Confirm Password should be matched",
+        "description": "",
+        "id": "tutor-registration-action;password-and-confirm-password-should-be-matched",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9111525766,
+              "status": "passed"
+            },
+            "line": 226,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2846584530,
+              "status": "passed"
+            },
+            "line": 227,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2705962186,
+              "status": "passed"
+            },
+            "line": 228,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 637217516,
+              "status": "passed"
+            },
+            "line": 229,
+            "name": "User input differenet Password and Confirm Password",
+            "match": {
+              "location": "RegistrationsSteps.input_unmatched_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5456735476,
+              "status": "passed"
+            },
+            "line": 230,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10060437486,
+              "status": "passed"
+            },
+            "line": 231,
+            "name": "TR: Password Unmatched Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_unmatched_tpassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345151149,
+              "status": "passed"
+            },
+            "line": 232,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 224,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 234,
+        "name": "Password should contain alphanumeric and special character",
+        "description": "",
+        "id": "tutor-registration-action;password-should-contain-alphanumeric-and-special-character",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9541752508,
+              "status": "passed"
+            },
+            "line": 235,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2948745697,
+              "status": "passed"
+            },
+            "line": 236,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2567964815,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 664849168,
+              "status": "passed"
+            },
+            "line": 238,
+            "name": "User input invalid password character",
+            "match": {
+              "location": "RegistrationsSteps.input_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5485510574,
+              "status": "passed"
+            },
+            "line": 239,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130513660,
+              "status": "passed"
+            },
+            "line": 240,
+            "name": "TR: Invalid Password Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_invalid_tpassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 301815537,
+              "status": "passed"
+            },
+            "line": 241,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 233,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 243,
+        "name": "Password must be 8-20 characters",
+        "description": "",
+        "id": "tutor-registration-action;password-must-be-8-20-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9104876094,
+              "status": "passed"
+            },
+            "line": 244,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2990866323,
+              "status": "passed"
+            },
+            "line": 245,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2685001336,
+              "status": "passed"
+            },
+            "line": 246,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 687652571,
+              "status": "passed"
+            },
+            "line": 247,
+            "name": "User input less than 8 character Password",
+            "match": {
+              "location": "RegistrationsSteps.input_less_minimum_length_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5457844810,
+              "status": "passed"
+            },
+            "line": 248,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154295089,
+              "status": "passed"
+            },
+            "line": 249,
+            "name": "TR: Password Length Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_length_tpassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 485713725,
+              "status": "passed"
+            },
+            "line": 250,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 242,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 252,
+        "name": "Contact Type is Required",
+        "description": "",
+        "id": "tutor-registration-action;contact-type-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9303997984,
+              "status": "passed"
+            },
+            "line": 253,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2939403434,
+              "status": "passed"
+            },
+            "line": 254,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2612844743,
+              "status": "passed"
+            },
+            "line": 255,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383750579,
+              "status": "passed"
+            },
+            "line": 256,
+            "name": "User input valid Contact Number",
+            "match": {
+              "location": "RegistrationsSteps.input_valid_contact_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5687459080,
+              "status": "passed"
+            },
+            "line": 257,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164264013,
+              "status": "passed"
+            },
+            "line": 258,
+            "name": "TR: Contact Type Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_contact_type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 666092831,
+              "status": "passed"
+            },
+            "line": 259,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 251,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 261,
+        "name": "Contact Information Field only accept Numeric Characters",
+        "description": "",
+        "id": "tutor-registration-action;contact-information-field-only-accept-numeric-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9266459893,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2668263808,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2586522559,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 814162059,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User input invalid Contact Number",
+            "match": {
+              "location": "RegistrationsSteps.input_invalid_contact_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5633592480,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127034423,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "TR: Invalid Contact Number Error Message is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_invalid_contact_type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 302149092,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 260,
+            "name": "@TR"
+          }
+        ]
+      }
+    ],
+    "name": "Tutor Registration Action",
+    "description": "",
+    "id": "tutor-registration-action",
+    "keyword": "Feature",
+    "uri": "Tutor_Registration.feature"
+  }
+]

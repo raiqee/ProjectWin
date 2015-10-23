@@ -1,0 +1,458 @@
+package stepDefinition;
+
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import Common.Data;
+
+public class Student_FullRegSteps extends Data {
+	
+
+	@Given("^Access My Learning Coach$")
+	public void access_url() throws Throwable
+	{
+		driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get(baseUrl);
+	}
+	
+	@When("^Click Sign Up Menu$")
+	public void click_signup() throws Throwable
+	{
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.findElement(By.linkText("Sign Up")).click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+	
+	@Then("^Quit Browser$")
+	public void quit_browser() throws Throwable
+	{
+		driver.quit();
+	}
+	
+	/**********************************************REQUIRED FIELDS**********************************************/
+	@When("^User click Join Now Button$")
+	public void leave_field_blank() throws Throwable
+	{
+        driver.findElement(By.xpath("//input[@value='Join Now']")).click();
+        assertTrue(closeAlertAndGetItsText(driver).matches("^You have not uploaded any image\\. Do you wish to continue[\\s\\S]$"));
+        Thread.sleep(5000);
+	}
+	
+	/**********************************************FIRST NAME FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message First Name is required is displayed$")
+	public void error_message_firstname_required() throws Throwable
+	{	
+		Thread.sleep(5000);
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[2]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("First name is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	@When("^User input First Name Special and Numeric Characters$")
+	public void input_firstname_invalid_characters() throws Throwable
+	{
+	    driver.findElement(By.name("fname")).clear();
+	    driver.findElement(By.name("fname")).sendKeys("123!@#");
+	}
+
+	@Then("^FirstName Error Message Invalid Name is displayed$")
+	public void error_message_firstname_invalid_inputs() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[2]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Invalid name"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+		
+	/**********************************************LAST NAME FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Last Name is required is displayed$")
+	public void error_message_lastname_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[4]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Last name is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	@When("^User input Last Name Special and Numeric Characters$")
+	public void input_lastname_invalid_characters() throws Throwable
+	{
+	    driver.findElement(By.name("lname")).clear();
+	    driver.findElement(By.name("lname")).sendKeys("#1245!");
+	}
+
+	@Then("^LastName Error Message Invalid Name is displayed$")
+	public void error_message_lastname_invalid_inputs() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[4]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Invalid name"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+
+	/**********************************************BIRTHDATE FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Invalid Birthdate is displayed$")
+	public void error_message_birthdate_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[5]/div[2]"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Invalid birthdate"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	@When("^User select birthdate equal to the current date$")
+	public void select_equal_birthdate() throws Throwable
+	{
+	    new Select(driver.findElement(By.id("pickmonth"))).selectByVisibleText("September");
+	    new Select(driver.findElement(By.id("pickday"))).selectByVisibleText("7");
+	    new Select(driver.findElement(By.id("pickyear"))).selectByVisibleText("2015");
+	}
+	
+	@When("^User select birthdate greater than the current date$")
+	public void select_greater_birthdate() throws Throwable
+	{
+	    new Select(driver.findElement(By.id("pickmonth"))).selectByVisibleText("September");
+	    new Select(driver.findElement(By.id("pickday"))).selectByVisibleText("8");
+	    new Select(driver.findElement(By.id("pickyear"))).selectByVisibleText("2015");
+	}
+		
+	@Then("^Birthdate Error Message is displayed$")
+	public void error_message_equal_OR_greater_birthdate_inputs() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[5]/div[2]"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Student birthdate can not be equal or greater than today"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	@When("^User select a non leap year birthdate$")
+	public void input_non_leap_year_birthdate() throws Throwable
+	{
+	    new Select(driver.findElement(By.id("pickmonth"))).selectByVisibleText("February");
+	    new Select(driver.findElement(By.id("pickday"))).selectByVisibleText("29");
+	    new Select(driver.findElement(By.id("pickyear"))).selectByVisibleText("2001");
+	}
+		
+	@Then("^Birthdate Validation Message is displayed$")
+	public void validation_message_non_leap_year_birthdate() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[5]/div[2]"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Selected year is not a leap year"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************GENDER REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Gender is required is displayed$")
+	public void error_message_gender_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[6]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Gender is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************CONTACT NUMBER FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Contact Number is required is displayed$")
+	public void error_message_contact_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[8]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Contact number is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	@When("^User input Latin or Special Characters as Mobile Number$")
+	public void input_invalid_mobile_number_format() throws Throwable
+	{
+	    driver.findElement(By.name("mobile")).clear();
+	    driver.findElement(By.name("mobile")).sendKeys("mobile!@#");
+	}
+		
+	@Then("^Mobile Number Format Error Message is displayed$")
+	public void error_message_invalid_mobile_number_format() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[8]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Invalid contact number"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	/**********************************************SKYPE ID REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Skype ID is required is displayed$")
+	public void error_message_skype_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[9]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Skype ID is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************ADDRESS REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Address is required is displayed$")
+	public void error_message_address_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[11]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Address is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************COUNTRY REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Country is required is displayed$")
+	public void error_message_country_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[12]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Country is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************ZIP CODE REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message ZIP Code is required is displayed$")
+	public void error_message_zip_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[13]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Zip code is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************EMAIL FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Email is required is displayed$")
+	public void error_message_email_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[14]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Email is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	@When("^User input Email Invalid Format$")
+	public void input_invalid_email_format() throws Throwable
+	{
+        driver.findElement(By.cssSelector("div.col-md-12 > div.form-group > input[name=\"email\"]")).clear();
+        driver.findElement(By.cssSelector("div.col-md-12 > div.form-group > input[name=\"email\"]")).sendKeys("student06");
+	}
+		
+	@Then("^Email Format Error Message is displayed$")
+	public void error_message_email_number_format() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[8]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Invalid Email"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	
+	/**********************************************PASSWORD REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Password is required is displayed$")
+	public void error_message_password_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[15]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Password is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************CONFIRM PASSWORD REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Password Confirmation is required is displayed$")
+	public void error_message_passwordconfirmation_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[16]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Password confirmation is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+	
+	/**********************************************LEVEL REQUIRED FIELD VALIDATIONS**********************************************/
+	@Then("^Error Message Level is required is displayed$")
+	public void error_message_level_required() throws Throwable
+	{
+		List<WebElement> message = driver.findElements(By.xpath("//*[@id='registration-form']/fieldset/div[17]/div/div"));
+		for(WebElement wwa: message)
+		{
+			if(wwa.getText().equals("Level is required"))
+			{
+				sat = true;
+			}
+			else
+			{
+				throw new Exception("Test Condition Failed");
+			}
+		}
+	}
+
+	private String closeAlertAndGetItsText(WebDriver driver) {
+	    try {
+	      Alert alert = driver.switchTo().alert();
+	      String alertText = alert.getText();
+	      if (acceptNextAlert) {
+	        alert.accept();
+	      } else {
+	        alert.dismiss();
+	      }
+	      return alertText;
+	    } finally {
+	      acceptNextAlert = true;
+	    }
+   }
+}

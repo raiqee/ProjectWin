@@ -1,0 +1,804 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 90,
+        "name": "About Me Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;about-me-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12390125257,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2892742231,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3018651622,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5493211019,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187229213,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "TR: Error Message About Me is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_aboutme_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 450766799,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 89,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 98,
+        "name": "Contact Information Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;contact-information-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10837697473,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3145290004,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2778246465,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5481889763,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168806400,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "TR: Error Message Contact Information is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_contactinfo_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 380540299,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 97,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 106,
+        "name": "Skype Account is Required",
+        "description": "",
+        "id": "tutor-registration-action;skype-account-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8422093731,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3045567867,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2746297310,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5456559190,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 561779706,
+              "error_message": "java.lang.Exception: Test Condition Failed\r\n\tat stepDefinition.RegistrationsSteps.error_message_skypeacct_required(RegistrationsSteps.java:1820)\r\n\tat ✽.Then TR: Error Message Skype Account is required is displayed(Tutor_Registration.feature:111)\r\n",
+              "status": "failed"
+            },
+            "line": 111,
+            "name": "TR: Error Message Skype Account is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_skypeacct_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 112,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 105,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 114,
+        "name": "Educational Background Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;educational-background-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9240386441,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3123583258,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2701090167,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5578529912,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155511283,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "TR: Error Message Educational Background is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_education_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 381807808,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 113,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 122,
+        "name": "Work Experience Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;work-experience-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9390049792,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3196435035,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2815042283,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5457520311,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130648893,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "TR: Error Message Work Experience is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_work_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 406094250,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 121,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 130,
+        "name": "Documents Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;documents-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9212391047,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3026510545,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2798749394,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5483698206,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143076466,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "TR: Error Message Documents is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_documents_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 408327711,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 129,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 138,
+        "name": "Subject Matter Expertise Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;subject-matter-expertise-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9370331095,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3118610720,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2986677111,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5484527114,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154843569,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "TR: Error Message Subject Matter is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_subject_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 346142759,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 137,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 146,
+        "name": "Level Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;level-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8161155762,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3123429310,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2841395861,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5533067697,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131418334,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "TR: Error Message Level is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_tlevel_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 347651455,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 145,
+            "name": "@TR"
+          }
+        ]
+      },
+      {
+        "line": 154,
+        "name": "Rate Field is Required",
+        "description": "",
+        "id": "tutor-registration-action;rate-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9216437480,
+              "status": "passed"
+            },
+            "line": 155,
+            "name": "Access My Learning Coach",
+            "match": {
+              "location": "RegistrationsSteps.access_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3067499498,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "Click Sign Up Menu",
+            "match": {
+              "location": "RegistrationsSteps.click_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2722539125,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "Click Im a Tutor Link",
+            "match": {
+              "location": "RegistrationsSteps.click_tutor_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5501111901,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "User click Continue Now Button",
+            "match": {
+              "location": "RegistrationsSteps.leave_tfield_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124849259,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "TR: Error Message Rate is required is displayed",
+            "match": {
+              "location": "RegistrationsSteps.error_message_rate_required()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 410645996,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "Quit Browser",
+            "match": {
+              "location": "RegistrationsSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 153,
+            "name": "@TR"
+          }
+        ]
+      }
+    ],
+    "name": "Tutor Registration Action",
+    "description": "",
+    "id": "tutor-registration-action",
+    "keyword": "Feature",
+    "uri": "Tutor_Registration.feature"
+  }
+]

@@ -1,0 +1,85 @@
+Type of User
+1. Parent/Student
+2. Tutor
+3. Admin
+
+Modules
+1. Login
+2. Logout
+3. Home : Registration
+4. Registration Page
+5. Home : Contact Us 
+6. Dashboard (Parent/Student)
+	6.1 My Account
+		6.1.1 View Profile
+		6.1.2 Update Profile
+		6.1.3 Deactivate Account
+	6.2 My Appointment
+		6.2.1 List of Appointment
+			6.2.1.1 Appointment Request
+			6.2.1.2 Approved Appointment
+			6.2.1.3 Rejected/Declined Appointment
+		6.2.2 View Appointment
+			6.2.2.1 Select Class Disposition
+			6.2.2.2 Rate Teacher
+		6.2.3 Create New Appointment
+			6.2.3.1 Search Tutors
+			6.2.3.2 Search Result
+			6.2.3.3 View Tutor Profile
+			6.2.3.4 Appointment Setting
+	6.3 Re-activate Account
+7. Dashboard (Tutor)
+	7.1 My Account
+		7.1.1 View Profile
+		7.1.2 Update Profile
+		7.1.3 Deactivate Account
+	7.2 My Appointment
+		7.2.1 List of Appointment
+			7.2.1.1 Appointment Request
+			7.2.1.2 Approved Appointment
+			7.2.1.3 Rejected/Declined Appointment
+		7.2.2 View Appointment
+			7.2.2.1 Select Class Disposition
+			7.2.2.2 Add Class Remarks and/or attached documents
+	7.3 Re-activate Account
+8. Dashboard (Admin)
+	8.1 List of Registered Users
+		8.1.1 Parent/Student
+		8.1.2 Tutors
+			8.1.2.1 Approved Tutors
+			8.1.2.2 Declined Tutors
+	8.2 View User's Profile
+		8.2.1 Student
+		8.2.2 Tutor
+			8.2.2.1 Approved
+			8.2.2.2 Declined
+			8.2.2.3 Re-activate
+	8.3 Appointment Request Queue
+	8.4 Class Scheduling
+		8.4.1 Student-Teacher Assignment
+	8.5 Reports
+		8.5.1 View Reports
+			8.5.1.1 Survey Reports
+				8.5.1.1.1 Payment
+				8.5.1.1.2 User Statistics 
+			8.5.1.2 Appointment Summary Reports
+				8.5.1.2.1 Student Appointments
+				8.5.1.2.2 Platform Used
+		8.5.2 Extract Reports
+			8.5.2.1 Survey Reports
+				8.5.2.1.1 Payment
+				8.5.2.1.2 User Statistics 
+			8.5.2.2 Appointment Summary Reports
+				8.5.2.2.1 Student Appointments
+				8.5.2.2.2 Platform Used
+	8.6 Admin Maintenance
+		8.6.1 Add Admin User
+		8.6.2 Deactivate Admin User
+		8.6.3 Re-activate Admin User
+9. Contact Us Page
+10. Deactivate Account (For Client User)
+11. Re-activate Account (For Client User)
+	
+	
+	
+	

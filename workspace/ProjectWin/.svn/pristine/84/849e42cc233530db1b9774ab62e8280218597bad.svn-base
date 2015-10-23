@@ -1,0 +1,92 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Student_FullRegistration.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Student Full Registration Action",
+  "description": "",
+  "id": "student-full-registration-action",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 141,
+  "name": "Email field only accept Valid Format",
+  "description": "",
+  "id": "student-full-registration-action;email-field-only-accept-valid-format",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 140,
+      "name": "@Email"
+    }
+  ]
+});
+formatter.step({
+  "line": 142,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 143,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 144,
+  "name": "User input Email Invalid Format",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 145,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 146,
+  "name": "Email Format Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 147,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Student_FullRegSteps.access_url()"
+});
+formatter.result({
+  "duration": 14491588799,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Student_FullRegSteps.click_signup()"
+});
+formatter.result({
+  "duration": 10190803206,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Sign Up\"}\nCommand duration or timeout: 10.11 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.45.0\u0027, revision: \u00275017cb8\u0027, time: \u00272015-02-27 00:00:10\u0027\nSystem info: host: \u0027LLP0000A32581\u0027, ip: \u002710.120.20.134\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d40.0.3, platform\u003dWINDOWS, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 5993a3e2-f15c-4feb-aa42-107be8ba8bac\n*** Element info: {Using\u003dlink text, value\u003dSign Up}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:242)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat stepDefinition.Student_FullRegSteps.click_signup(Student_FullRegSteps.java:35)\r\n\tat ✽.When Click Sign Up Menu(Student_FullRegistration.feature:143)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Sign Up\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.45.0\u0027, revision: \u00275017cb8\u0027, time: \u00272015-02-27 00:00:10\u0027\nSystem info: host: \u0027LLP0000A32581\u0027, ip: \u002710.120.20.134\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_25\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous9180725622073127648webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous9180725622073127648webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "Student_FullRegSteps.input_invalid_email_format()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Student_FullRegSteps.leave_field_blank()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Student_FullRegSteps.error_message_email_number_format()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Student_FullRegSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+});

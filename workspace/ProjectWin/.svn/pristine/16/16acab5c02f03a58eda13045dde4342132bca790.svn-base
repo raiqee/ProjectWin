@@ -1,0 +1,4410 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LogIn_Test.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Login Action",
+  "description": "",
+  "id": "login-action",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Successful Login with Valid Credentials",
+  "description": "",
+  "id": "login-action;successful-login-with-valid-credentials",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "User is on Home Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "User Navigate to LogIn Page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "User enters Email and Password",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Message displayed Login Successfully",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.user_is_on_Home_Page()"
+});
+formatter.result({
+  "duration": 14316167466,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_navigate_to_Login_Page()"
+});
+formatter.result({
+  "duration": 262360635,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_enters_Email_and_Password()"
+});
+formatter.result({
+  "duration": 895659405,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.message_displayed_Login_Successfully()"
+});
+formatter.result({
+  "duration": 145195,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Successful LogOut",
+  "description": "",
+  "id": "login-action;successful-logout",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 10,
+  "name": "User LogOut from the Application",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "Message displayed LogOut Successfully",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.user_LogOut_from_the_Application()"
+});
+formatter.result({
+  "duration": 664393,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepDefinition.LoginSteps.user_LogOut_from_the_Application(LoginSteps.java:52)\r\n\tat ✽.When User LogOut from the Application(LogIn_Test.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "LoginSteps.Message_displayed_LogOut_Successfully()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.uri("Parent_Registration.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Parent Full Registration Action",
+  "description": "",
+  "id": "parent-full-registration-action",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "When Parent Radio Button is clicked, it will redirect to Parent/Guardians Registration Form",
+  "description": "",
+  "id": "parent-full-registration-action;when-parent-radio-button-is-clicked,-it-will-redirect-to-parent/guardians-registration-form",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Page should redirected to Parent Registration Form",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9924975436,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3466886723,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 2009069079,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.parent_registration_form()"
+});
+formatter.result({
+  "duration": 154529635,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 475897241,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 10,
+  "name": "Guardian First Name Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-first-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 11,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "PR: Error Message Guardian First Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11963348472,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2886823362,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3064510179,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5463354962,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_Gfname_required()"
+});
+formatter.result({
+  "duration": 5130871364,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 338669311,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 18,
+  "name": "Guardian Last Name Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-last-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 19,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 20,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 21,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "PR: Error Message Guardian Last Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 24,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9510194564,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 5436023056,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 4890886095,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5423761809,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_Glname_required()"
+});
+formatter.result({
+  "duration": 5207807606,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 360086875,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 26,
+  "name": "Guardian Birthdate Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-birthdate-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 27,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 28,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 29,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "PR: Error Message Invalid Birthdate is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 32,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10897608515,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3822392571,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3554697469,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5484188728,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gbirthdate_required()"
+});
+formatter.result({
+  "duration": 128333929,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 373978468,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 34,
+  "name": "Gender Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;gender-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 35,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 36,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 37,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "PR: Error Message Gender is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 40,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11419962901,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3153567003,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 4691621425,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5433002948,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_ggender_required()"
+});
+formatter.result({
+  "duration": 155632932,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 345281250,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 42,
+  "name": "Guardian Contact Number Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-contact-number-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 43,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 44,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 45,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "PR: Error Message Contact Number is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 48,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 14608440305,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3856434823,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3584374523,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5458127352,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gcontact_required()"
+});
+formatter.result({
+  "duration": 2801757428,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 357901107,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 50,
+  "name": "Guardian Skype ID Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-skype-id-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 51,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 52,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 53,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 54,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 55,
+  "name": "PR: Error Message Skype ID is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 56,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 12416699192,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3079041111,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 2299177885,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5481525419,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gskype_required()"
+});
+formatter.result({
+  "duration": 153241599,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 350868375,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 58,
+  "name": "Guardian Address Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-address-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 59,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 60,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 61,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "PR: Error Message Address is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 64,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13080334883,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 4570628126,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3429483865,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5488117435,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gaddress_required()"
+});
+formatter.result({
+  "duration": 257387493,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 427651274,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 66,
+  "name": "Guardian Country Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-country-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 67,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 68,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 69,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 70,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 71,
+  "name": "PR: Error Message Country is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 72,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 16927757377,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3400695184,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3721220903,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5432694748,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gcountry_required()"
+});
+formatter.result({
+  "duration": 127731418,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 363448388,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 74,
+  "name": "Guardian Zip Code Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-zip-code-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 75,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 76,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 77,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 78,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 79,
+  "name": "PR: Error Message ZIP Code is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 80,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10725291785,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3375716578,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3722026566,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5457245317,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gzip_required()"
+});
+formatter.result({
+  "duration": 130279718,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 379187363,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 82,
+  "name": "Guardian Email Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-email-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 83,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 84,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 85,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 86,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 87,
+  "name": "PR: Error Message Email is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 88,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10314970290,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3079306447,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3315830591,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5510881899,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gemail_required()"
+});
+formatter.result({
+  "duration": 155347977,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 377087927,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 90,
+  "name": "Guardian Password Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-password-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 91,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 92,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 93,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "PR: Error Message Password is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 96,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 16127719645,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 6116068154,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 2488587130,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5458076337,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gpassword_required()"
+});
+formatter.result({
+  "duration": 532121366,
+  "error_message": "java.lang.Exception: Test Condition Failed\r\n\tat stepDefinition.RegistrationsSteps.error_message_gpassword_required(RegistrationsSteps.java:1069)\r\n\tat ✽.Then PR: Error Message Password is required is displayed(Parent_Registration.feature:95)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 98,
+  "name": "Guardian Confirm Password Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;guardian-confirm-password-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 99,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 100,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 101,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 103,
+  "name": "PR: Error Message Password Confirmation is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 104,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 14004204908,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2988814279,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 2464438941,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5432253430,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gpasswordconfirmation_required()"
+});
+formatter.result({
+  "duration": 128969647,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 551209779,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 106,
+  "name": "Student First Name Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;student-first-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 107,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 108,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 109,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 110,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 111,
+  "name": "PR: Error Message Student First Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 112,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 14512658042,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3895862256,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 2038890725,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5430805709,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_sfname_required()"
+});
+formatter.result({
+  "duration": 5128392189,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 357195963,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 114,
+  "name": "Student Last Name Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;student-last-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 115,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 116,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 117,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 118,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 119,
+  "name": "PR: Error Message Student Last Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 120,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10345538737,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3026639137,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 3346310894,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5483982256,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_slname_required()"
+});
+formatter.result({
+  "duration": 5129642794,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 311747633,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 122,
+  "name": "Student Birthdate Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;student-birthdate-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 123,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 124,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 125,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 126,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 127,
+  "name": "PR: Error Message Invalid Student Birthdate is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 128,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11824679764,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3063605807,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 2643764857,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5432180681,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_sbirthdate_required()"
+});
+formatter.result({
+  "duration": 127566300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 364298123,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 130,
+  "name": "Student Gender Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;student-gender-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 131,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 132,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 133,
+  "name": "Click Parent RadioButton",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 134,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 135,
+  "name": "PR: Error Message Student Gender is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 136,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11750668243,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 4383905132,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_parent_radiobutton()"
+});
+formatter.result({
+  "duration": 2686098898,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5457872883,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_sgender_required()"
+});
+formatter.result({
+  "duration": 127323001,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 383678736,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 138,
+  "name": "Student Level Field is Required",
+  "description": "",
+  "id": "parent-full-registration-action;student-level-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 139,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 140,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 141,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 142,
+  "name": "PR: Error Message Level is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 143,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10225216773,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3638223011,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5409140318,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_slevel_required()"
+});
+formatter.result({
+  "duration": 10052785035,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 429316936,
+  "status": "passed"
+});
+formatter.uri("QuickRegistration.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Quick Registration Action",
+  "description": "",
+  "id": "quick-registration-action",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Successful Quick Registration",
+  "description": "",
+  "id": "quick-registration-action;successful-quick-registration",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "Access My Learning Coach Website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "User select a Subject",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "User enters email and password",
+  "rows": [
+    {
+      "cells": [
+        "email",
+        "testemail26@dagobah.com"
+      ],
+      "line": 7
+    },
+    {
+      "cells": [
+        "pass",
+        "login@123"
+      ],
+      "line": 8
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User will redirect to Registration Notification Slide",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "QuickRegistrationSteps.access_baseURL()"
+});
+formatter.result({
+  "duration": 12220861841,
+  "status": "passed"
+});
+formatter.match({
+  "location": "QuickRegistrationSteps.select_subjectL()"
+});
+formatter.result({
+  "duration": 431687140,
+  "status": "passed"
+});
+formatter.match({
+  "location": "QuickRegistrationSteps.input_required_informations(DataTable)"
+});
+formatter.result({
+  "duration": 2410995549,
+  "status": "passed"
+});
+formatter.match({
+  "location": "QuickRegistrationSteps.registration_notification()"
+});
+formatter.result({
+  "duration": 708625797,
+  "status": "passed"
+});
+formatter.uri("Student_Registration.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Student Full Registration Action",
+  "description": "",
+  "id": "student-full-registration-action",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "First Name Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;first-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "SR: Error Message First Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 12726181970,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3054284071,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5458536070,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_firstname_required()"
+});
+formatter.result({
+  "duration": 5128995908,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 301833044,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 10,
+  "name": "Last Name Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;last-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 11,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "SR: Error Message Last Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11652432161,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2884966320,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5431667519,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_lastname_required()"
+});
+formatter.result({
+  "duration": 2862240495,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 353803963,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Birthdate Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;birthdate-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 18,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "SR: Error Message Invalid Birthdate is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 22,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 12309771960,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3664774609,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5458117390,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_birthdate_required()"
+});
+formatter.result({
+  "duration": 128302234,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 447054526,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 24,
+  "name": "Gender Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;gender-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 25,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "SR: Error Message Gender is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9480526866,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3200121348,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5431507232,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gender_required()"
+});
+formatter.result({
+  "duration": 3975990063,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 393475600,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 31,
+  "name": "Contact Number Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;contact-number-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 32,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 33,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 34,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "SR: Error Message Contact Number is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 36,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11836595081,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 4182113895,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5430894758,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_contact_required()"
+});
+formatter.result({
+  "duration": 129587855,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 435200488,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 38,
+  "name": "Skype ID Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;skype-id-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 39,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 40,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 41,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "SR: Error Message Skype ID is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 43,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 15553109082,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3448398407,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5456139302,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_skype_required()"
+});
+formatter.result({
+  "duration": 694266926,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 383323750,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 45,
+  "name": "Address Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;address-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 46,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 47,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "SR: Error Message Address is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 50,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11354490695,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2882524274,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5457029487,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_address_required()"
+});
+formatter.result({
+  "duration": 540414363,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 439191982,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 52,
+  "name": "Country Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;country-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 53,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 54,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 55,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 56,
+  "name": "SR: Error Message Country is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 57,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13371368889,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3114699521,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5405678589,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_country_required()"
+});
+formatter.result({
+  "duration": 2347366196,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 357663242,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 59,
+  "name": "Zip Code Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;zip-code-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 60,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 61,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 62,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "SR: Error Message ZIP Code is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 64,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13225406945,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2979632606,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5433046416,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_zip_required()"
+});
+formatter.result({
+  "duration": 2468188342,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 316272815,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 66,
+  "name": "Email Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;email-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 67,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 68,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 69,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 70,
+  "name": "SR: Error Message Email is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 71,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 19180551468,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3573925040,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5409674610,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_email_required()"
+});
+formatter.result({
+  "duration": 129254300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 388604788,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 73,
+  "name": "Password Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;password-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 74,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 75,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 76,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 77,
+  "name": "SR: Error Message Password is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 78,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13983792840,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3420671970,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5434237554,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_password_required()"
+});
+formatter.result({
+  "duration": 569809179,
+  "error_message": "java.lang.Exception: Test Condition Failed\r\n\tat stepDefinition.RegistrationsSteps.error_message_password_required(RegistrationsSteps.java:451)\r\n\tat ✽.Then SR: Error Message Password is required is displayed(Student_Registration.feature:77)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 80,
+  "name": "Confirm Password Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;confirm-password-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 81,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 82,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 83,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 84,
+  "name": "SR: Error Message Password Confirmation is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 85,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13957866696,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3055870646,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5432450242,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_passwordconfirmation_required()"
+});
+formatter.result({
+  "duration": 181824713,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 476706527,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 87,
+  "name": "Level Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;level-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 88,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 89,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 90,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "SR: Error Message Level is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 92,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11367406072,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2871707425,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5484071909,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_level_required()"
+});
+formatter.result({
+  "duration": 153409432,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 372700091,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 94,
+  "name": "First Name field only accept Alphabet Characters",
+  "description": "",
+  "id": "student-full-registration-action;first-name-field-only-accept-alphabet-characters",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 95,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 96,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 97,
+  "name": "User input First Name Special and Numeric Characters",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "SR: FirstName Error Message Invalid Name is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 100,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11367142850,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3022551652,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_firstname_invalid_characters()"
+});
+formatter.result({
+  "duration": 256010408,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5786630927,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_firstname_invalid_inputs()"
+});
+formatter.result({
+  "duration": 154414927,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 377595655,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 102,
+  "name": "Last Name field only accept Alphabet Characters",
+  "description": "",
+  "id": "student-full-registration-action;last-name-field-only-accept-alphabet-characters",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 103,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 104,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 105,
+  "name": "User input Last Name Special and Numeric Characters",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "SR: LastName Error Message Invalid Name is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 108,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13592317665,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3003924179,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_lastname_invalid_characters()"
+});
+formatter.result({
+  "duration": 279869114,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5711785969,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_lastname_invalid_inputs()"
+});
+formatter.result({
+  "duration": 342052556,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 424990680,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 110,
+  "name": "Birthdate Cannot be equal to the Current Date",
+  "description": "",
+  "id": "student-full-registration-action;birthdate-cannot-be-equal-to-the-current-date",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 111,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 112,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 113,
+  "name": "User select birthdate equal to the current date",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 114,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 115,
+  "name": "SR: Birthdate Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 116,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 14107511029,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3705056304,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_equal_birthdate()"
+});
+formatter.result({
+  "duration": 1328510819,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5481757851,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_equal_OR_greater_birthdate_inputs()"
+});
+formatter.result({
+  "duration": 11168006170,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 426654834,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 118,
+  "name": "Birthdate Cannot be greater than the Current Date",
+  "description": "",
+  "id": "student-full-registration-action;birthdate-cannot-be-greater-than-the-current-date",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 119,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 120,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 121,
+  "name": "User select birthdate greater than the current date",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 122,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 123,
+  "name": "SR: Birthdate Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 124,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11223603030,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3990258980,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_greater_birthdate()"
+});
+formatter.result({
+  "duration": 1324314363,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5408194289,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_equal_OR_greater_birthdate_inputs()"
+});
+formatter.result({
+  "duration": 10051415798,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 388300514,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 126,
+  "name": "Non-Leap Year Birhtdate",
+  "description": "",
+  "id": "student-full-registration-action;non-leap-year-birhtdate",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 127,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 128,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 129,
+  "name": "User select a non leap year birthdate",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 130,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 131,
+  "name": "SR: Birthdate Validation Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 132,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10230811746,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3933303147,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_non_leap_year_birthdate()"
+});
+formatter.result({
+  "duration": 1276110656,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5408532976,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.validation_message_non_leap_year_birthdate()"
+});
+formatter.result({
+  "duration": 153617112,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 394536336,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 134,
+  "name": "Mobile Number field only accept Numeric Characters",
+  "description": "",
+  "id": "student-full-registration-action;mobile-number-field-only-accept-numeric-characters",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 135,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 136,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 137,
+  "name": "User input Latin or Special Characters as Mobile Number",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 138,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 139,
+  "name": "SR: Mobile Number Format Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 140,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 12425340838,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2906341925,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_mobile_number_format()"
+});
+formatter.result({
+  "duration": 282584343,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5635131965,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_invalid_mobile_number_format()"
+});
+formatter.result({
+  "duration": 457353987,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 406522589,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 142,
+  "name": "Email field only accept Valid Format",
+  "description": "",
+  "id": "student-full-registration-action;email-field-only-accept-valid-format",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 143,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 144,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 145,
+  "name": "User input Email Invalid Format",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 146,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 147,
+  "name": "SR: Email Format Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 148,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 9539251900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3000565988,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_email_format()"
+});
+formatter.result({
+  "duration": 280854082,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5657697503,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_email_format()"
+});
+formatter.result({
+  "duration": 183843854,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 362656005,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 150,
+  "name": "Email is unique",
+  "description": "",
+  "id": "student-full-registration-action;email-is-unique",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 151,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 152,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 153,
+  "name": "User input existing Email",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 154,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 155,
+  "name": "SR: Existing Email Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 156,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11028973118,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3489684088,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_existing_email_format()"
+});
+formatter.result({
+  "duration": 332890203,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5711162327,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_email_exists()"
+});
+formatter.result({
+  "duration": 139991155,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 446166757,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 158,
+  "name": "Password and Confirm Password should be matched",
+  "description": "",
+  "id": "student-full-registration-action;password-and-confirm-password-should-be-matched",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 159,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 160,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 161,
+  "name": "User input differenet Password and Confirm Password",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 162,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 163,
+  "name": "SR: Password Unmatched Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 164,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13551731393,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3034188653,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_unmatched_password()"
+});
+formatter.result({
+  "duration": 639931840,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5459160316,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_unmatched_password()"
+});
+formatter.result({
+  "duration": 426299545,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 408874983,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 166,
+  "name": "Password should contain alphanumeric and special character",
+  "description": "",
+  "id": "student-full-registration-action;password-should-contain-alphanumeric-and-special-character",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 167,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 168,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 169,
+  "name": "User input invalid password character",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 170,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 171,
+  "name": "SR: Invalid Password Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 172,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 20973078624,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3073456703,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_password()"
+});
+formatter.result({
+  "duration": 664426262,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5483812309,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_invalid_password()"
+});
+formatter.result({
+  "duration": 641906004,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 360010806,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 174,
+  "name": "Password must be 8-20 characters",
+  "description": "",
+  "id": "student-full-registration-action;password-must-be-8-20-characters",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 175,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 176,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 177,
+  "name": "User input less than 8 character Password",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 178,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 179,
+  "name": "SR: Password Length Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 180,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 5190669812,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 13554212983,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Sign Up\"}\nCommand duration or timeout: 10.51 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.45.0\u0027, revision: \u00275017cb8\u0027, time: \u00272015-02-27 00:00:10\u0027\nSystem info: host: \u0027LLP0000A32581\u0027, ip: \u002710.120.20.134\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d40.0.3, platform\u003dWINDOWS, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 8fa6ed28-19ef-447d-a99d-994718a049e9\n*** Element info: {Using\u003dlink text, value\u003dSign Up}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:242)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat stepDefinition.RegistrationsSteps.click_signup(RegistrationsSteps.java:35)\r\n\tat ✽.When Click Sign Up Menu(Student_Registration.feature:176)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Sign Up\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.45.0\u0027, revision: \u00275017cb8\u0027, time: \u00272015-02-27 00:00:10\u0027\nSystem info: host: \u0027LLP0000A32581\u0027, ip: \u002710.120.20.134\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_25\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous4543713193496162984webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/RENALE~1.SOB/AppData/Local/Temp/anonymous4543713193496162984webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_less_minimum_length_password()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_length_password()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 182,
+  "name": "Guardian Email Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;guardian-email-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 183,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 184,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 185,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 186,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 187,
+  "name": "SR: Error Message Guardian Email is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 188,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 12905925359,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 4876296300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1455060153,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5508627911,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_guardian_email_required()"
+});
+formatter.result({
+  "duration": 1915934128,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 350976140,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 190,
+  "name": "Guardian First Name Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;guardian-first-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 191,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 192,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 193,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 194,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 195,
+  "name": "SR: Error Message Guardian First Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 196,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 14582488503,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 2889546440,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1377767715,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5433628703,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_guardian_firstname_required()"
+});
+formatter.result({
+  "duration": 463875066,
+  "error_message": "java.lang.Exception: Test Condition Failed\r\n\tat stepDefinition.RegistrationsSteps.error_message_guardian_firstname_required(RegistrationsSteps.java:640)\r\n\tat ✽.Then SR: Error Message Guardian First Name is required is displayed(Student_Registration.feature:195)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 198,
+  "name": "Guardian Last Name Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;guardian-last-name-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 199,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 200,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 201,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 202,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 203,
+  "name": "SR: Error Message Guardian Last Name is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 204,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 48409400823,
+  "error_message": "org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe) on port 7058; process output follows: \ndons.manager\tDEBUG\tLoaded provider scope for resource://gre/modules/addons/PluginProvider.jsm\r\n1442319596214\taddons.manager\tDEBUG\tStarting provider: XPIProvider\r\n1442319596214\taddons.xpi\tDEBUG\tstartup\r\n1442319596214\taddons.xpi\tINFO\tMapping fxdriver@googlecode.com to C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com\r\n1442319596215\taddons.xpi\tDEBUG\tIgnoring file entry whose name is not a valid add-on ID: C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\webdriver-staging\r\n1442319596215\taddons.xpi\tWARN\tIgnoring missing add-on in C:\\Program Files (x86)\\HP\\Unified Functional Testing\\Bin\\Mozilla\\Common\r\n1442319596215\taddons.xpi\tINFO\tMapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1442319596215\taddons.xpi\tDEBUG\tSkipping unavailable install location app-system-share\r\n1442319596215\taddons.xpi\tDEBUG\tSkipping unavailable install location app-system-local\r\n1442319596216\taddons.xpi\tDEBUG\tcheckForChanges\r\n1442319596216\taddons.xpi\tDEBUG\tLoaded add-on state from prefs: {\"app-profile\":{\"fxdriver@googlecode.com\":{\"d\":\"C:\\\\Users\\\\RENALE~1.SOB\\\\AppData\\\\Local\\\\Temp\\\\anonymous8877270370957147725webdriver-profile\\\\extensions\\\\fxdriver@googlecode.com\",\"e\":true,\"v\":\"2.45.0\",\"st\":1442319593192,\"mt\":1442319593106}},\"app-global\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"d\":\"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"e\":true,\"v\":\"40.0.3\",\"st\":1441091144941,\"mt\":1441091144869}}}\r\n1442319596216\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of fxdriver@googlecode.com\r\n1442319596222\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1442319596223\taddons.xpi\tDEBUG\tgetInstallState changed: false, state: {\"app-profile\":{\"fxdriver@googlecode.com\":{\"d\":\"C:\\\\Users\\\\RENALE~1.SOB\\\\AppData\\\\Local\\\\Temp\\\\anonymous8877270370957147725webdriver-profile\\\\extensions\\\\fxdriver@googlecode.com\",\"e\":true,\"v\":\"2.45.0\",\"st\":1442319593192,\"mt\":1442319593106}},\"app-global\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"d\":\"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"e\":true,\"v\":\"40.0.3\",\"st\":1441091144941,\"mt\":1441091144869}}}\r\n1442319596224\taddons.xpi\tDEBUG\tNo changes found\r\n1442319596225\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1442319596225\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1442319596225\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1442319596225\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1442319596225\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1442319596225\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1442319596228\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1442319596228\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1442319596228\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1442319596228\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1442319596228\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1442319596229\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1442319596257\taddons.xpi-utils\tDEBUG\tStarting async load of XPI database C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions.json\r\n1442319596296\taddons.xpi-utils\tDEBUG\tAsync JSON file read took 0 MS\r\n1442319596296\taddons.xpi-utils\tDEBUG\tFinished async read of XPI database, parsing...\r\n1442319596297\taddons.xpi-utils\tDEBUG\tSuccessfully read XPI database\r\n*** Blocklist::_loadBlocklistFromFile: blocklist is disabled\r\n1442319596383\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1442319596383\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1442319596383\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n\nBuild info: version: \u00272.45.0\u0027, revision: \u00275017cb8\u0027, time: \u00272015-02-27 00:00:10\u0027\nSystem info: host: \u0027LLP0000A32581\u0027, ip: \u002710.120.20.134\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_25\u0027\nDriver info: driver.version: FirefoxDriver\r\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:114)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:193)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:186)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:182)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:95)\r\n\tat stepDefinition.RegistrationsSteps.access_url(RegistrationsSteps.java:26)\r\n\tat ✽.Given Access My Learning Coach(Student_Registration.feature:199)\r\nCaused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7058 after 45000 ms. Firefox console output:\ndons.manager\tDEBUG\tLoaded provider scope for resource://gre/modules/addons/PluginProvider.jsm\r\n1442319596214\taddons.manager\tDEBUG\tStarting provider: XPIProvider\r\n1442319596214\taddons.xpi\tDEBUG\tstartup\r\n1442319596214\taddons.xpi\tINFO\tMapping fxdriver@googlecode.com to C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\fxdriver@googlecode.com\r\n1442319596215\taddons.xpi\tDEBUG\tIgnoring file entry whose name is not a valid add-on ID: C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions\\webdriver-staging\r\n1442319596215\taddons.xpi\tWARN\tIgnoring missing add-on in C:\\Program Files (x86)\\HP\\Unified Functional Testing\\Bin\\Mozilla\\Common\r\n1442319596215\taddons.xpi\tINFO\tMapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1442319596215\taddons.xpi\tDEBUG\tSkipping unavailable install location app-system-share\r\n1442319596215\taddons.xpi\tDEBUG\tSkipping unavailable install location app-system-local\r\n1442319596216\taddons.xpi\tDEBUG\tcheckForChanges\r\n1442319596216\taddons.xpi\tDEBUG\tLoaded add-on state from prefs: {\"app-profile\":{\"fxdriver@googlecode.com\":{\"d\":\"C:\\\\Users\\\\RENALE~1.SOB\\\\AppData\\\\Local\\\\Temp\\\\anonymous8877270370957147725webdriver-profile\\\\extensions\\\\fxdriver@googlecode.com\",\"e\":true,\"v\":\"2.45.0\",\"st\":1442319593192,\"mt\":1442319593106}},\"app-global\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"d\":\"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"e\":true,\"v\":\"40.0.3\",\"st\":1441091144941,\"mt\":1441091144869}}}\r\n1442319596216\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of fxdriver@googlecode.com\r\n1442319596222\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\r\n1442319596223\taddons.xpi\tDEBUG\tgetInstallState changed: false, state: {\"app-profile\":{\"fxdriver@googlecode.com\":{\"d\":\"C:\\\\Users\\\\RENALE~1.SOB\\\\AppData\\\\Local\\\\Temp\\\\anonymous8877270370957147725webdriver-profile\\\\extensions\\\\fxdriver@googlecode.com\",\"e\":true,\"v\":\"2.45.0\",\"st\":1442319593192,\"mt\":1442319593106}},\"app-global\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"d\":\"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"e\":true,\"v\":\"40.0.3\",\"st\":1441091144941,\"mt\":1441091144869}}}\r\n1442319596224\taddons.xpi\tDEBUG\tNo changes found\r\n1442319596225\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1442319596225\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1442319596225\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1442319596225\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1442319596225\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1442319596225\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1442319596228\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1442319596228\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1442319596228\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1442319596228\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1442319596228\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1442319596229\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1442319596257\taddons.xpi-utils\tDEBUG\tStarting async load of XPI database C:\\Users\\RENALE~1.SOB\\AppData\\Local\\Temp\\anonymous8877270370957147725webdriver-profile\\extensions.json\r\n1442319596296\taddons.xpi-utils\tDEBUG\tAsync JSON file read took 0 MS\r\n1442319596296\taddons.xpi-utils\tDEBUG\tFinished async read of XPI database, parsing...\r\n1442319596297\taddons.xpi-utils\tDEBUG\tSuccessfully read XPI database\r\n*** Blocklist::_loadBlocklistFromFile: blocklist is disabled\r\n1442319596383\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1442319596383\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1442319596383\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n\r\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:114)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:193)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:186)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:182)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:95)\r\n\tat stepDefinition.RegistrationsSteps.access_url(RegistrationsSteps.java:26)\r\n\tat sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_guardian_lastname_required()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 206,
+  "name": "Guardian Birthdate Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;guardian-birthdate-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 207,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 208,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 209,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 210,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 211,
+  "name": "SR: Error Message Guardian Birthdate is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 212,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 14098151863,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 4414044032,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1401465831,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5432766290,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_guardian_birthdate_required()"
+});
+formatter.result({
+  "duration": 127637539,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 346348928,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 214,
+  "name": "Guardian Gender Field is Required",
+  "description": "",
+  "id": "student-full-registration-action;guardian-gender-field-is-required",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 215,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 216,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 217,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 218,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 219,
+  "name": "SR: Error Message Guardian Gender is required is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 220,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13153778909,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3275751140,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1295814863,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5458029549,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_guardian_gender_required()"
+});
+formatter.result({
+  "duration": 152879366,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 439784834,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 222,
+  "name": "Guardian Email field only accept Valid Format",
+  "description": "",
+  "id": "student-full-registration-action;guardian-email-field-only-accept-valid-format",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 223,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 224,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 225,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 226,
+  "name": "User input Guardian Email using Invalid Format",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 227,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 228,
+  "name": "SR: Guardian Email Format Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 229,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 11545701138,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3108407251,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1324988114,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_gmail_format()"
+});
+formatter.result({
+  "duration": 329936504,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5638185882,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_gmail_format()"
+});
+formatter.result({
+  "duration": 2305008913,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 335059670,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 231,
+  "name": "Guardian First Name Field only accept Alphabet Characters",
+  "description": "",
+  "id": "student-full-registration-action;guardian-first-name-field-only-accept-alphabet-characters",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 232,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 233,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 234,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 235,
+  "name": "User input Guardian First Name with Special and Numeric Characters",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 236,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 237,
+  "name": "SR: Error Message Guardian First Name is invalid",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 238,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10227046044,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3488017822,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1349437257,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_fname_characters()"
+});
+formatter.result({
+  "duration": 357592607,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5684693740,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_invalid_fname_characters()"
+});
+formatter.result({
+  "duration": 4257043071,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 314141684,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 240,
+  "name": "Guardian Last Name Field only accept Alphabet Characters",
+  "description": "",
+  "id": "student-full-registration-action;guardian-last-name-field-only-accept-alphabet-characters",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 241,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 242,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 243,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 244,
+  "name": "User input Guardian Last Name with Special and Numeric Characters",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 245,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 246,
+  "name": "SR: Error Message Guardian Last Name is invalid",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 247,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 15616097888,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3761109878,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1465193288,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.input_invalid_lname_characters()"
+});
+formatter.result({
+  "duration": 305371145,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5659863952,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_invalid_lname_characters()"
+});
+formatter.result({
+  "duration": 1464669863,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 315444813,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 249,
+  "name": "Non-Leap Year Guardian Birhtdate",
+  "description": "",
+  "id": "student-full-registration-action;non-leap-year-guardian-birhtdate",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 250,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 251,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 252,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 253,
+  "name": "User select a non leap year for guardian birthdate",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 254,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 255,
+  "name": "SR: Guardian Birthdate Validation Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 256,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 10432625321,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3224687311,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1399385413,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_non_leap_year_gbirthdate()"
+});
+formatter.result({
+  "duration": 1350374231,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5407947971,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.validation_message_non_leap_year_gbirthdate()"
+});
+formatter.result({
+  "duration": 180770316,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 327109888,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 258,
+  "name": "Guardian must be at least 18 years old",
+  "description": "",
+  "id": "student-full-registration-action;guardian-must-be-at-least-18-years-old",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 259,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 260,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 261,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 262,
+  "name": "User select Guardian Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 263,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 264,
+  "name": "SR: Error Message Guardian must be at least 18years old is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 265,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 18840735391,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 4303033541,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1478375209,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.guardian_must_be_atleast_18yrsold()"
+});
+formatter.result({
+  "duration": 1456013729,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5457967970,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_guardian_age()"
+});
+formatter.result({
+  "duration": 154198796,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 350039166,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 267,
+  "name": "Guardian Birthdate Cannot be equal to the Current Date",
+  "description": "",
+  "id": "student-full-registration-action;guardian-birthdate-cannot-be-equal-to-the-current-date",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 268,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 269,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 270,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 271,
+  "name": "User select Guardian birthdate equal to the current date",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 272,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 273,
+  "name": "SR: Guardian Birthdate Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 274,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 13895137490,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 4607994458,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1397943126,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_equal_gbirthdate()"
+});
+formatter.result({
+  "duration": 1386030225,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5484620690,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_equal_OR_greater_gbirthdate()"
+});
+formatter.result({
+  "duration": 7952227349,
+  "error_message": "java.lang.Exception: Test Condition Failed\r\n\tat stepDefinition.RegistrationsSteps.error_message_equal_OR_greater_gbirthdate(RegistrationsSteps.java:814)\r\n\tat ✽.Then SR: Guardian Birthdate Error Message is displayed(Student_Registration.feature:273)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 276,
+  "name": "Guardian Birthdate Cannot be greater than the Current Date",
+  "description": "",
+  "id": "student-full-registration-action;guardian-birthdate-cannot-be-greater-than-the-current-date",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 277,
+  "name": "Access My Learning Coach",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 278,
+  "name": "Click Sign Up Menu",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 279,
+  "name": "Select Student Birthdate less than 18 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 280,
+  "name": "User select Guardian birthdate greater than the current date",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 281,
+  "name": "User click Join Now Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 282,
+  "name": "SR: Guardian Birthdate Error Message is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 283,
+  "name": "Quit Browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegistrationsSteps.access_url()"
+});
+formatter.result({
+  "duration": 12099395827,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.click_signup()"
+});
+formatter.result({
+  "duration": 3216263609,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_student_birthdate()"
+});
+formatter.result({
+  "duration": 1324865861,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.select_greater_gbirthdate()"
+});
+formatter.result({
+  "duration": 1325413133,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.leave_field_blank()"
+});
+formatter.result({
+  "duration": 5432505482,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.error_message_equal_OR_greater_gbirthdate()"
+});
+formatter.result({
+  "duration": 155076302,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationsSteps.quit_browser()"
+});
+formatter.result({
+  "duration": 426841383,
+  "status": "passed"
+});
+});

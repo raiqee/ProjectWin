@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="193.74928">
+<testcase classname="Tutor Registration Action" name="About Me Field is Required" time="24.432726">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message About Me is required is displayed....................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Contact Information Field is Required" time="22.79247">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Contact Information is required is displayed.........passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Skype Account is Required" time="20.232298">
+<failure message="java.lang.Exception: Test Condition Failed&#13;&#10;&#9;at stepDefinition.RegistrationsSteps.error_message_skypeacct_required(RegistrationsSteps.java:1820)&#13;&#10;&#9;at ✽.Then TR: Error Message Skype Account is required is displayed(Tutor_Registration.feature:111)&#13;&#10;"><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Skype Account is required is displayed...............failed
+Then Quit Browser...........................................................skipped
+
+StackTrace:
+java.lang.Exception: Test Condition Failed
+	at stepDefinition.RegistrationsSteps.error_message_skypeacct_required(RegistrationsSteps.java:1820)
+	at ✽.Then TR: Error Message Skype Account is required is displayed(Tutor_Registration.feature:111)
+]]></failure>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Educational Background Field is Required" time="21.180909">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Educational Background is required is displayed......passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Work Experience Field is Required" time="21.395791">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Work Experience is required is displayed.............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Documents Field is Required" time="21.072753">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Documents is required is displayed...................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Subject Matter Expertise Field is Required" time="21.461132">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Subject Matter is required is displayed..............passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Level Field is Required" time="20.138118">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Level is required is displayed.......................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tutor Registration Action" name="Rate Field is Required" time="21.043083">
+<system-out><![CDATA[Given Access My Learning Coach..............................................passed
+When Click Sign Up Menu.....................................................passed
+When Click Im a Tutor Link..................................................passed
+When User click Continue Now Button.........................................passed
+Then TR: Error Message Rate is required is displayed........................passed
+Then Quit Browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

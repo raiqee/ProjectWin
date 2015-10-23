@@ -1,0 +1,143 @@
+Feature: Parent Full Registration Action
+
+Scenario: When Parent Radio Button is clicked, it will redirect to Parent/Guardians Registration Form
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	Then Page should redirected to Parent Registration Form
+	Then Quit Browser
+
+Scenario: Guardian First Name Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Guardian First Name is required is displayed
+	Then Quit Browser
+
+Scenario: Guardian Last Name Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Guardian Last Name is required is displayed
+	Then Quit Browser
+
+Scenario: Guardian Birthdate Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button	
+	Then PR: Error Message Invalid Birthdate is displayed
+	Then Quit Browser
+
+Scenario: Gender Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Gender is required is displayed
+	Then Quit Browser
+	
+Scenario: Guardian Contact Number Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Contact Number is required is displayed
+	Then Quit Browser
+	
+Scenario: Guardian Skype ID Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Skype ID is required is displayed
+	Then Quit Browser
+	
+Scenario: Guardian Address Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Address is required is displayed
+	Then Quit Browser
+	
+Scenario: Guardian Country Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button	
+	Then PR: Error Message Country is required is displayed
+	Then Quit Browser
+
+Scenario: Guardian Zip Code Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message ZIP Code is required is displayed
+	Then Quit Browser
+
+Scenario: Guardian Email Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Email is required is displayed
+	Then Quit Browser
+
+Scenario: Guardian Password Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Password is required is displayed
+	Then Quit Browser
+
+Scenario: Guardian Confirm Password Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Password Confirmation is required is displayed
+	Then Quit Browser
+	
+Scenario: Student First Name Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Student First Name is required is displayed
+	Then Quit Browser
+
+Scenario: Student Last Name Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Student Last Name is required is displayed
+	Then Quit Browser
+
+Scenario: Student Birthdate Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button	
+	Then PR: Error Message Invalid Student Birthdate is displayed
+	Then Quit Browser
+
+Scenario: Student Gender Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And Click Parent RadioButton
+	And User click Join Now Button
+	Then PR: Error Message Student Gender is required is displayed
+	Then Quit Browser
+	
+Scenario: Student Level Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	And User click Join Now Button	
+	Then PR: Error Message Level is required is displayed
+	Then Quit Browser

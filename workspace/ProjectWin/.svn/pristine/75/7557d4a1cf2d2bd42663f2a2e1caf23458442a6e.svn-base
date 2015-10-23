@@ -1,0 +1,160 @@
+Feature: Tutor Registration Action
+
+Scenario: When Im a tutor link is clicked, it will redirect to Tutor Registration Form
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	Then Page should redirected to Tutor Registration Form
+	Then Quit Browser
+	
+Scenario: First Name Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message First Name is required is displayed
+	Then Quit Browser	
+	
+Scenario: Last Name Field is Required	
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Last Name is required is displayed
+	Then Quit Browser	
+	
+Scenario: Birthdate Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button	
+	Then TR: Error Message Invalid Birthdate is displayed
+	Then Quit Browser
+
+Scenario: Gender Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Gender is required is displayed
+	Then Quit Browser
+	
+Scenario: Address Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Address is required is displayed
+	Then Quit Browser
+	
+Scenario: Country Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button	
+	Then TR: Error Message Country is required is displayed
+	Then Quit Browser
+
+Scenario: Zip Code Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message ZIP Code is required is displayed
+	Then Quit Browser
+
+Scenario: Email Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Email is required is displayed
+	Then Quit Browser
+
+Scenario: Password Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Password is required is displayed
+	Then Quit Browser
+
+Scenario: Confirm Password Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Password Confirmation is required is displayed
+	Then Quit Browser
+	
+Scenario: About Me Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message About Me is required is displayed
+	Then Quit Browser
+	
+Scenario: Contact Information Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Contact Information is required is displayed
+	Then Quit Browser
+
+Scenario: Skype Account is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Skype Account is required is displayed
+	Then Quit Browser
+		
+Scenario: Educational Background Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Educational Background is required is displayed
+	Then Quit Browser
+	
+Scenario: Work Experience Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Work Experience is required is displayed
+	Then Quit Browser
+	
+Scenario: Documents Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Documents is required is displayed
+	Then Quit Browser
+	
+Scenario: Subject Matter Expertise Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Subject Matter is required is displayed
+	Then Quit Browser
+	
+Scenario: Level Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Level is required is displayed
+	Then Quit Browser
+	
+Scenario: Rate Field is Required
+	Given Access My Learning Coach
+	When Click Sign Up Menu
+	When Click Im a Tutor Link
+	When User click Continue Now Button
+	Then TR: Error Message Rate is required is displayed
+	Then Quit Browser
